@@ -1,0 +1,36 @@
+{
+    "id": "ExtBox1-ext-gen4594",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "DataListView",
+        "layout": "card",
+        "designer|userClassName": "DataListView"
+    },
+    "customConfigs": [],
+    "designerId": "f1b26b08-ead2-4a36-beec-40aafae7dc9d",
+    "$viewOrder": 5,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen3246",
+            "type": "titlebar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "자료목록",
+                "designer|userClassName": "MyTitleBar5"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}
