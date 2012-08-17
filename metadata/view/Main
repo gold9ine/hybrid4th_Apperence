@@ -28,11 +28,74 @@
             "userConfig": {
                 "docked": "top",
                 "id": "MainTitle",
-                "title": null,
-                "designer|userClassName": "MyTitleBar"
+                "style": null,
+                "scrollable": false,
+                "title": "로그인",
+                "designer|userClassName": "MyTitleBar",
+                "container|pack": null
             },
             "customConfigs": [],
-            "expanded": true
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen7038",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": null,
+                        "hidden": true,
+                        "id": "KeyInputButton",
+                        "ui": "action",
+                        "text": "강의등록",
+                        "designer|userClassName": "MyButton9",
+                        "align": "right"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen6517",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "hidden": true,
+                        "id": "QnAWriteButton",
+                        "ui": "action",
+                        "text": "댓글쓰기",
+                        "designer|userClassName": "MyButton10",
+                        "align": "right"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen9895",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "hidden": true,
+                        "id": "BackButton",
+                        "itemId": "mybutton11",
+                        "ui": "back",
+                        "text": "Back",
+                        "designer|userClassName": "MyButton11"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
         },
         {
             "id": "ExtBox1-ext-gen6310",
@@ -48,7 +111,7 @@
                 "designer|userClassName": "MyPanel9"
             },
             "customConfigs": [],
-            "expanded": false,
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen4909",
@@ -81,7 +144,7 @@
                                 "designer|userClassName": "MyFieldSet"
                             },
                             "customConfigs": [],
-                            "expanded": false,
+                            "expanded": true,
                             "cn": [
                                 {
                                     "id": "ExtBox1-ext-gen8482",
@@ -136,7 +199,7 @@
                                 "container|pack": "center"
                             },
                             "customConfigs": [],
-                            "expanded": false,
+                            "expanded": true,
                             "cn": [
                                 {
                                     "id": "ExtBox1-ext-gen13959",
@@ -192,8 +255,8 @@
             ]
         },
         {
-            "id": "ExtBox1-ext-gen18565",
-            "type": "list",
+            "id": "ExtBox1-ext-gen9924",
+            "type": "panel",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -201,11 +264,29 @@
             "codeClass": null,
             "userConfig": {
                 "id": "LectureListView",
-                "itemTpl": "<div>List Item {string}</div>",
-                "designer|userClassName": "MyList"
+                "layout": "card",
+                "designer|userClassName": "MyPanel14"
             },
             "customConfigs": [],
-            "expanded": true
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen18565",
+                    "type": "list",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "LectureList",
+                        "itemTpl": "<div>List Item {string}</div>",
+                        "designer|userClassName": "MyList"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
         },
         {
             "id": "ExtBox1-ext-gen19241",
@@ -271,7 +352,7 @@
                                 "designer|userClassName": "MyFieldSet1"
                             },
                             "customConfigs": [],
-                            "expanded": false,
+                            "expanded": true,
                             "cn": [
                                 {
                                     "id": "ExtBox1-ext-gen21232",
@@ -299,7 +380,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "id": "KeyButton",
+                                "id": "RegisterButton",
                                 "text": "강의등록",
                                 "designer|userClassName": "MyButton2"
                             },
@@ -518,8 +599,8 @@
             ]
         },
         {
-            "id": "ExtBox1-ext-gen9430",
-            "type": "list",
+            "id": "ExtBox1-ext-gen11646",
+            "type": "panel",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -527,15 +608,33 @@
             "codeClass": null,
             "userConfig": {
                 "id": "DataListView",
-                "itemTpl": "<div>List Item {string}</div>",
-                "designer|userClassName": "MyList1"
+                "layout": "card",
+                "designer|userClassName": "MyPanel15"
             },
             "customConfigs": [],
-            "expanded": true
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen9430",
+                    "type": "list",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "DataList",
+                        "itemTpl": "<div>List Item {string}</div>",
+                        "designer|userClassName": "MyList1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
         },
         {
-            "id": "ExtBox1-ext-gen9624",
-            "type": "list",
+            "id": "ExtBox1-ext-gen12713",
+            "type": "panel",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -543,11 +642,29 @@
             "codeClass": null,
             "userConfig": {
                 "id": "QnAListView",
-                "itemTpl": "<div>List Item {string}</div>",
-                "designer|userClassName": "MyList2"
+                "layout": "card",
+                "designer|userClassName": "MyPanel16"
             },
             "customConfigs": [],
-            "expanded": true
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen9624",
+                    "type": "list",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "QnAList",
+                        "itemTpl": "<div>List Item {string}</div>",
+                        "designer|userClassName": "MyList2"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
         },
         {
             "id": "ExtBox1-ext-gen10702",
@@ -652,7 +769,7 @@
                         "designer|userClassName": "MyFieldSet3"
                     },
                     "customConfigs": [],
-                    "expanded": false,
+                    "expanded": true,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen17438",
@@ -718,7 +835,7 @@
                         "designer|userClassName": "MyFieldSet4"
                     },
                     "customConfigs": [],
-                    "expanded": false,
+                    "expanded": true,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen16744",

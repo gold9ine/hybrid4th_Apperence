@@ -25,7 +25,35 @@ Ext.define('MyApp.view.Main', {
             {
                 xtype: 'titlebar',
                 docked: 'top',
-                id: 'MainTitle'
+                id: 'MainTitle',
+                scrollable: false,
+                title: '로그인',
+                items: [
+                    {
+                        xtype: 'button',
+                        hidden: true,
+                        id: 'KeyInputButton',
+                        ui: 'action',
+                        text: '강의등록',
+                        align: 'right'
+                    },
+                    {
+                        xtype: 'button',
+                        hidden: true,
+                        id: 'QnAWriteButton',
+                        ui: 'action',
+                        text: '댓글쓰기',
+                        align: 'right'
+                    },
+                    {
+                        xtype: 'button',
+                        hidden: true,
+                        id: 'BackButton',
+                        itemId: 'mybutton11',
+                        ui: 'back',
+                        text: 'Back'
+                    }
+                ]
             },
             {
                 xtype: 'panel',
@@ -86,10 +114,19 @@ Ext.define('MyApp.view.Main', {
                 ]
             },
             {
-                xtype: 'list',
+                xtype: 'panel',
                 id: 'LectureListView',
-                itemTpl: [
-                    '<div>List Item {string}</div>'
+                layout: {
+                    type: 'card'
+                },
+                items: [
+                    {
+                        xtype: 'list',
+                        id: 'LectureList',
+                        itemTpl: [
+                            '<div>List Item {string}</div>'
+                        ]
+                    }
                 ]
             },
             {
@@ -124,7 +161,7 @@ Ext.define('MyApp.view.Main', {
                             },
                             {
                                 xtype: 'button',
-                                id: 'KeyButton',
+                                id: 'RegisterButton',
                                 text: '강의등록'
                             }
                         ]
@@ -211,17 +248,35 @@ Ext.define('MyApp.view.Main', {
                 ]
             },
             {
-                xtype: 'list',
+                xtype: 'panel',
                 id: 'DataListView',
-                itemTpl: [
-                    '<div>List Item {string}</div>'
+                layout: {
+                    type: 'card'
+                },
+                items: [
+                    {
+                        xtype: 'list',
+                        id: 'DataList',
+                        itemTpl: [
+                            '<div>List Item {string}</div>'
+                        ]
+                    }
                 ]
             },
             {
-                xtype: 'list',
+                xtype: 'panel',
                 id: 'QnAListView',
-                itemTpl: [
-                    '<div>List Item {string}</div>'
+                layout: {
+                    type: 'card'
+                },
+                items: [
+                    {
+                        xtype: 'list',
+                        id: 'QnAList',
+                        itemTpl: [
+                            '<div>List Item {string}</div>'
+                        ]
+                    }
                 ]
             },
             {
