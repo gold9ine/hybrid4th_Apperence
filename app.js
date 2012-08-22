@@ -19,7 +19,19 @@ Ext.Loader.setConfig({
 
 Ext.application({
     views: [
+<<<<<<< HEAD
         'Main'
+=======
+        'Main',
+        'LectureListView',
+        'KeyInputView',
+        'MenuView',
+        'IntroduceView',
+        'DataListView',
+        'QnAListView',
+        'QnAWriteView',
+        'SigninView'
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
     ],
     name: 'MyApp',
     controllers: [

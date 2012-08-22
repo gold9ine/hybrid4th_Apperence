@@ -1,0 +1,36 @@
+{
+    "id": "ExtBox1-ext-gen3071",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "MenuView",
+        "layout": "card",
+        "designer|userClassName": "MenuView"
+    },
+    "customConfigs": [],
+    "designerId": "05a7621b-a532-4f54-894e-f373f7fbe011",
+    "$viewOrder": 3,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen2917",
+            "type": "titlebar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "해당강의",
+                "designer|userClassName": "MyTitleBar3"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": "ExtBox1-ext-gen5495",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "QnAWriteView",
+        "layout": "card",
+        "designer|userClassName": "QnAWriteView"
+    },
+    "customConfigs": [],
+    "designerId": "a36ced74-e9b9-4ef8-9cbe-d070936fcbed",
+    "$viewOrder": 7,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen3572",
+            "type": "titlebar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "댓글쓰기",
+                "designer|userClassName": "MyTitleBar7"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

@@ -40,6 +40,17 @@ Ext.define('MyApp.view.Main', {
                     {
                         xtype: 'button',
                         hidden: true,
+<<<<<<< HEAD
+=======
+                        id: 'QnAWriteButton',
+                        ui: 'action',
+                        text: '댓글쓰기',
+                        align: 'right'
+                    },
+                    {
+                        xtype: 'button',
+                        hidden: true,
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                         id: 'BackButton',
                         itemId: 'mybutton11',
                         ui: 'back',
@@ -67,17 +78,26 @@ Ext.define('MyApp.view.Main', {
                                 items: [
                                     {
                                         xtype: 'emailfield',
+<<<<<<< HEAD
                                         id: 'LoginEmailField',
                                         label: 'E-mail',
                                         name: 'Email',
+=======
+                                        label: 'E-mail',
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                         placeHolder: 'email@example.com'
                                     },
                                     {
                                         xtype: 'passwordfield',
+<<<<<<< HEAD
                                         id: 'LoginPassField',
                                         label: 'Password',
                                         labelWidth: '36%',
                                         name: 'Password'
+=======
+                                        label: 'Password',
+                                        labelWidth: '36%'
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                     }
                                 ]
                             },
@@ -100,7 +120,11 @@ Ext.define('MyApp.view.Main', {
                                     },
                                     {
                                         xtype: 'button',
+<<<<<<< HEAD
                                         id: 'SigninMoveButton',
+=======
+                                        id: 'SigninButton',
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                         text: '가입하기'
                                     }
                                 ]
@@ -128,10 +152,13 @@ Ext.define('MyApp.view.Main', {
             {
                 xtype: 'panel',
                 id: 'KeyInputView',
+<<<<<<< HEAD
                 layout: {
                     align: 'center',
                     type: 'vbox'
                 },
+=======
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                 items: [
                     {
                         xtype: 'label',
@@ -169,6 +196,7 @@ Ext.define('MyApp.view.Main', {
                 ]
             },
             {
+<<<<<<< HEAD
                 xtype: 'tabpanel',
                 id: 'LectureTabPanel',
                 hideOnMaskTap: false,
@@ -249,11 +277,69 @@ Ext.define('MyApp.view.Main', {
                                         ]
                                     }
                                 ]
+=======
+                xtype: 'panel',
+                id: 'MenuView',
+                layout: {
+                    align: 'center',
+                    pack: 'center',
+                    type: 'vbox'
+                },
+                items: [
+                    {
+                        xtype: 'button',
+                        id: 'IntroduceButton',
+                        text: '강의소개'
+                    },
+                    {
+                        xtype: 'spacer',
+                        height: '2em'
+                    },
+                    {
+                        xtype: 'button',
+                        id: 'DataListButton',
+                        text: '강의자료'
+                    },
+                    {
+                        xtype: 'spacer',
+                        height: '2em'
+                    },
+                    {
+                        xtype: 'button',
+                        id: 'QnAListButton',
+                        text: '댓글목록'
+                    }
+                ]
+            },
+            {
+                xtype: 'panel',
+                id: 'IntroduceView',
+                items: [
+                    {
+                        xtype: 'container',
+                        layout: {
+                            align: 'center',
+                            pack: 'center',
+                            type: 'hbox'
+                        },
+                        scrollable: false,
+                        items: [
+                            {
+                                xtype: 'image',
+                                height: 122,
+                                ui: '',
+                                width: 113
+                            },
+                            {
+                                xtype: 'label',
+                                html: '이름: 블라라<br>연락처: 010-4569-0000'
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                             }
                         ]
                     },
                     {
                         xtype: 'container',
+<<<<<<< HEAD
                         id: 'DataListContainer',
                         layout: {
                             type: 'card'
@@ -382,6 +468,87 @@ Ext.define('MyApp.view.Main', {
                     docked: 'bottom',
                     id: 'LectureTabBar'
                 }
+=======
+                        height: 300,
+                        ui: '',
+                        width: 318,
+                        layout: {
+                            align: 'start',
+                            type: 'hbox'
+                        },
+                        scrollable: true,
+                        items: [
+                            {
+                                xtype: 'label',
+                                html: '강의 소개 <br>어찌고 저찌고 abcdefghijklmnopqrstuvwxyz',
+                                margin: '1em'
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                xtype: 'panel',
+                id: 'DataListView',
+                layout: {
+                    type: 'card'
+                },
+                items: [
+                    {
+                        xtype: 'list',
+                        id: 'DataList',
+                        itemTpl: [
+                            '<div>List Item {string}</div>'
+                        ]
+                    }
+                ]
+            },
+            {
+                xtype: 'panel',
+                id: 'QnAListView',
+                layout: {
+                    type: 'card'
+                },
+                items: [
+                    {
+                        xtype: 'list',
+                        id: 'QnAList',
+                        itemTpl: [
+                            '<div>List Item {string}</div>'
+                        ]
+                    }
+                ]
+            },
+            {
+                xtype: 'formpanel',
+                id: 'QnAWriteView',
+                layout: {
+                    align: 'center',
+                    pack: 'center',
+                    type: 'vbox'
+                },
+                scrollable: false,
+                items: [
+                    {
+                        xtype: 'fieldset',
+                        instructions: '내용제한글자는 100자입니다',
+                        title: '댓글',
+                        items: [
+                            {
+                                xtype: 'textfield',
+                                label: '이름'
+                            },
+                            {
+                                xtype: 'textareafield',
+                                height: 260,
+                                width: 261,
+                                label: '내용',
+                                name: ''
+                            }
+                        ]
+                    }
+                ]
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             {
                 xtype: 'formpanel',
@@ -398,7 +565,10 @@ Ext.define('MyApp.view.Main', {
                         items: [
                             {
                                 xtype: 'emailfield',
+<<<<<<< HEAD
                                 id: 'SigninEmailField',
+=======
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                 width: 278,
                                 label: 'Email',
                                 placeHolder: 'email@example.com'
@@ -421,12 +591,18 @@ Ext.define('MyApp.view.Main', {
                         items: [
                             {
                                 xtype: 'textfield',
+<<<<<<< HEAD
                                 id: 'SigninNumField',
+=======
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                 label: '인증번호'
                             },
                             {
                                 xtype: 'passwordfield',
+<<<<<<< HEAD
                                 id: 'SigninPassField',
+=======
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                 label: '비밀번호'
                             }
                         ]

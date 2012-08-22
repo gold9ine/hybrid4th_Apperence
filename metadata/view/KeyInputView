@@ -1,0 +1,55 @@
+{
+    "id": "ExtBox1-ext-gen2953",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "KeyInputView",
+        "layout": "card",
+        "designer|userClassName": "KeyInputView"
+    },
+    "customConfigs": [],
+    "designerId": "a104adca-339e-4a24-9dec-e4d7ae760de8",
+    "$viewOrder": 2,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen2726",
+            "type": "titlebar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "강의등록",
+                "designer|userClassName": "MyTitleBar2"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen20470",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "ListBackBtn",
+                        "ui": "back",
+                        "text": "목록",
+                        "designer|userClassName": "MyButton8"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}

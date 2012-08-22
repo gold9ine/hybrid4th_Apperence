@@ -23,9 +23,15 @@
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "ref": "signinMoveButton",
                 "selector": "#SigninMoveButton",
                 "designer|userClassName": "signinMoveButton"
+=======
+                "ref": "signinButton",
+                "selector": "#SigninButton",
+                "designer|userClassName": "signinButton"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
@@ -71,22 +77,35 @@
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "fn": "signinMoveBtnAction",
+=======
+                "fn": "signinBtnAction",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                 "implHandler": [
                     "//로그인화면에서 가입하기 버튼을 눌렀을때 발생하는 함수\r",
                     "\r",
                     "//card속성을 가진 panel에서 맨위에 올릴 panel을 결정. Main panel안에 \r",
                     "//있는 panel중 9번째 패널을 맨위에 올림.\r",
+<<<<<<< HEAD
                     "this.getMain().setActiveItem(4);\r",
                     "\r",
+=======
+                    "this.getMain().setActiveItem(9);\r",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                     "this.getMainTitle().setTitle(\"가입하기\");\r",
                     "this.getBackButton().show();"
                 ],
                 "element": null,
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
+<<<<<<< HEAD
                 "designer|controlQuery": "signinMoveButton",
                 "designer|userClassName": "signinMoveBtnAction"
+=======
+                "designer|controlQuery": "signinButton",
+                "designer|userClassName": "signinBtnAction"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
@@ -120,6 +139,7 @@
                 "implHandler": [
                     "//로그인화면에서 로그인 버튼을 눌렀을때 발생하는 함수\r",
                     "\r",
+<<<<<<< HEAD
                     "//console.log(\"로그인버튼을 누름\");\r",
                     "//console.log(Ext.getCmp(\"LoginEmailField\").getValue());\r",
                     "//console.log(request.getParameter(\"Email\"));\r",
@@ -137,6 +157,12 @@
                     "    \"존재하지 않는 이메일이거나 비밀번호가 맞지 않습니다.\"\r",
                     "    );\r",
                     "}"
+=======
+                    "this.getMain().setActiveItem(1);\r",
+                    "this.getMainTitle().setTitle(\"강의목록\");\r",
+                    "this.getKeyInputButton().show();\r",
+                    "this.getBackButton().show();"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                 ],
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
@@ -191,7 +217,10 @@
                 "implHandler": [
                     "//강의목록화면에서 강의등록 버튼을 눌렀을때 발생하는 함수\r",
                     "this.getMain().setActiveItem(2);\r",
+<<<<<<< HEAD
                     "\r",
+=======
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                     "this.getMainTitle().setTitle(\"강의등록\");\r",
                     "this.getKeyInputButton().hide();\r",
                     "this.getBackButton().show();"
@@ -233,9 +262,14 @@
                 "implHandler": [
                     "//강의등록화면에서  키입력후 강의등록버튼을 눌렀을때 발생하는 함수\r",
                     "this.getMain().setActiveItem(3);\r",
+<<<<<<< HEAD
                     "this.getMainTitle().hide();\r",
                     "//this.getMainTitle().setTitle(\"해당강의\");\r",
                     "//this.getCmp(\"TabBackButton1\").show();"
+=======
+                    "this.getMainTitle().setTitle(\"해당강의\");\r",
+                    "this.getBackButton().show();"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                 ],
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
@@ -246,7 +280,11 @@
             "expanded": true
         },
         {
+<<<<<<< HEAD
             "id": "ExtBox1-ext-gen7830",
+=======
+            "id": "ExtBox1-ext-gen15483",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             "type": "controllerref",
             "reference": {
                 "name": "items",
@@ -254,22 +292,36 @@
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "ref": "qnAWriteButton",
                 "selector": "#QnAWriteButton",
                 "designer|userClassName": "qnAWriteButton"
+=======
+                "ref": "introduceButton",
+                "selector": "#IntroduceButton",
+                "designer|userClassName": "introduceButton"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
         },
         {
+<<<<<<< HEAD
             "id": "ExtBox1-ext-gen8453",
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
+=======
+            "id": "ExtBox1-ext-gen15665",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "fn": "qnAWriteBtnAction",
                 "implHandler": [
                     "//댓글목록화면에서 댓글쓰기 버튼을 눌렀을때 발생하는 함수\r",
@@ -285,12 +337,21 @@
                 "designer|targetType": "Ext.Button",
                 "designer|controlQuery": "qnAWriteButton",
                 "designer|userClassName": "qnAWriteBtnAction"
+=======
+                "ref": "dataListButton",
+                "selector": "#DataListButton",
+                "designer|userClassName": "dataListButton"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
         },
         {
+<<<<<<< HEAD
             "id": "ExtBox1-ext-gen14398",
+=======
+            "id": "ExtBox1-ext-gen15864",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             "type": "controllerref",
             "reference": {
                 "name": "items",
@@ -298,15 +359,25 @@
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "ref": "backButton",
                 "selector": "#BackButton",
                 "designer|userClassName": "backButton"
+=======
+                "ref": "qnAListButton",
+                "selector": "#QnAListButton",
+                "designer|userClassName": "qnAListButton"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
         },
         {
+<<<<<<< HEAD
             "id": "ExtBox1-ext-gen15973",
+=======
+            "id": "ExtBox1-ext-gen3163",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -314,6 +385,7 @@
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "fn": "backBtnAction",
                 "implHandler": [
                     "if(this.getMain().getActiveItem().getId()==\"LectureListView\"){\r",
@@ -354,11 +426,25 @@
                 "designer|targetType": "Ext.Button",
                 "designer|controlQuery": "backButton",
                 "designer|userClassName": "backBtnAction"
+=======
+                "fn": "introduceBtnAction",
+                "implHandler": [
+                    "//강의메뉴화면에서 강의소개 버튼을 눌렀을때 발생하는 함수\r",
+                    "this.getMain().setActiveItem(4);\r",
+                    "this.getMainTitle().setTitle(\"강의소개\");\r",
+                    "this.getBackButton().show();"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "introduceButton",
+                "designer|userClassName": "introduceBtnAction"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
         },
         {
+<<<<<<< HEAD
             "id": "ExtBox1-ext-gen5735",
             "type": "controllerref",
             "reference": {
@@ -395,19 +481,43 @@
             "type": "controllerref",
             "reference": {
                 "name": "items",
+=======
+            "id": "ExtBox1-ext-gen4218",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "ref": "mailSendButton",
                 "selector": "#MailSendButton",
                 "designer|userClassName": "mailSendButton"
+=======
+                "fn": "dataListBtnAction",
+                "implHandler": [
+                    "//강의메뉴화면에서 자료목록 버튼을 눌렀을때 발생하는 함수\r",
+                    "this.getMain().setActiveItem(5);\r",
+                    "this.getMainTitle().setTitle(\"자료목록\");\r",
+                    "this.getBackButton().show();"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "dataListButton",
+                "designer|userClassName": "dataListBtnAction"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
         },
         {
+<<<<<<< HEAD
             "id": "ExtBox1-ext-gen10866",
+=======
+            "id": "ExtBox1-ext-gen5170",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -415,6 +525,7 @@
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "fn": "mailSendBtnAction",
                 "implHandler": [
                     "if(Ext.getCmp(\"SigninEmailField\").getValue()){\r",
@@ -437,12 +548,30 @@
                 "designer|targetType": "Ext.Button",
                 "designer|controlQuery": "mailSendButton",
                 "designer|userClassName": "mailSendBtnAction"
+=======
+                "fn": "qnAListBntAction",
+                "implHandler": [
+                    "//강의메뉴화면에서 댓글목록 버튼을 눌렀을때 발생하는 함수\r",
+                    "this.getMain().setActiveItem(6);\r",
+                    "this.getMainTitle().setTitle(\"댓글목록\");\r",
+                    "this.getQnAWriteButton().show();\r",
+                    "this.getBackButton().show();"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "qnAListButton",
+                "designer|userClassName": "qnAListBntAction"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
         },
         {
+<<<<<<< HEAD
             "id": "ExtBox1-ext-gen2835",
+=======
+            "id": "ExtBox1-ext-gen7830",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             "type": "controllerref",
             "reference": {
                 "name": "items",
@@ -450,15 +579,25 @@
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "ref": "signinButton",
                 "selector": "#SigninButton",
                 "designer|userClassName": "signinButton"
+=======
+                "ref": "qnAWriteButton",
+                "selector": "#QnAWriteButton",
+                "designer|userClassName": "qnAWriteButton"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
         },
         {
+<<<<<<< HEAD
             "id": "ExtBox1-ext-gen3328",
+=======
+            "id": "ExtBox1-ext-gen8453",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -466,6 +605,7 @@
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "fn": "SigninBtnAction",
                 "implHandler": [
                     "if(Ext.getCmp(\"SigninNumField\").getValue()&& Ext.getCmp(\"SigninPassField\").getValue()){\r",
@@ -504,12 +644,30 @@
                 "designer|targetType": "Ext.Button",
                 "designer|controlQuery": "signinButton",
                 "designer|userClassName": "SigninBtnAction"
+=======
+                "fn": "qnAWriteBtnAction",
+                "implHandler": [
+                    "//댓글목록화면에서 댓글쓰기 버튼을 눌렀을때 발생하는 함수\r",
+                    "this.getMain().setActiveItem(7);\r",
+                    "this.getMainTitle().setTitle(\"댓글쓰기\");\r",
+                    "this.getQnAWriteButton().hide();\r",
+                    "this.getBackButton().show();"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "qnAWriteButton",
+                "designer|userClassName": "qnAWriteBtnAction"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
         },
         {
+<<<<<<< HEAD
             "id": "ExtBox1-ext-gen19904",
+=======
+            "id": "ExtBox1-ext-gen14398",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             "type": "controllerref",
             "reference": {
                 "name": "items",
@@ -517,15 +675,25 @@
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "ref": "lectureTabBar",
                 "selector": "#LectureTabBar",
                 "designer|userClassName": "lectureTabBar"
+=======
+                "ref": "backButton",
+                "selector": "#BackButton",
+                "designer|userClassName": "backButton"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
         },
         {
+<<<<<<< HEAD
             "id": "ExtBox1-ext-gen35404",
+=======
+            "id": "ExtBox1-ext-gen15973",
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -533,6 +701,7 @@
             },
             "codeClass": null,
             "userConfig": {
+<<<<<<< HEAD
                 "fn": "tabPanelBackBtnAction",
                 "implHandler": [
                     "if(button.getId()==\"TabBackButton1\" || button.getId()==\"TabBackButton2\" || button.getId()==\"TabBackButton3\")\r",
@@ -590,6 +759,70 @@
                 "ref": "qnAWriteCanselButton",
                 "selector": "#QnAWriteCanselButton",
                 "designer|userClassName": "qnAWriteCanselButton"
+=======
+                "fn": "backBtnAction",
+                "implHandler": [
+                    "if(this.getMain().getActiveItem().getId()==\"LectureListView\"){\r",
+                    "    this.getMain().setActiveItem(0);\r",
+                    "    this.getMainTitle().setTitle(\"로그인\");\r",
+                    "    this.getKeyInputButton().hide();\r",
+                    "    this.getBackButton().hide();\r",
+                    "}\r",
+                    "\r",
+                    "else if(this.getMain().getActiveItem().getId()==\"KeyInputView\")\r",
+                    "{this.getMain().setActiveItem(1);\r",
+                    "    this.getMainTitle().setTitle(\"강의목록\");\r",
+                    "    this.getKeyInputButton().show();\r",
+                    "    this.getBackButton().show();\r",
+                    "\r",
+                    "}\r",
+                    "else if(this.getMain().getActiveItem().getId()==\"MenuView\")\r",
+                    "{ this.getMain().setActiveItem(1);\r",
+                    "    this.getMainTitle().setTitle(\"강의목록\");\r",
+                    "    this.getKeyInputButton().show();\r",
+                    "    this.getBackButton().show();\r",
+                    "}\r",
+                    "else if(this.getMain().getActiveItem().getId()==\"IntroduceView\")\r",
+                    "{this.getMain().setActiveItem(3);\r",
+                    "    this.getMainTitle().setTitle(\"해당강의\");\r",
+                    "    this.getKeyInputButton().hide();\r",
+                    "    this.getBackButton().show();\r",
+                    "}\r",
+                    "else if(this.getMain().getActiveItem().getId()==\"DataListView\")\r",
+                    "{this.getMain().setActiveItem(3);\r",
+                    "    this.getMainTitle().setTitle(\"해당강의\");\r",
+                    "    this.getKeyInputButton().hide();\r",
+                    "    this.getBackButton().show();\r",
+                    "\r",
+                    "}\r",
+                    "else if(this.getMain().getActiveItem().getId()==\"QnAListView\")\r",
+                    "{this.getMain().setActiveItem(3);\r",
+                    "    this.getMainTitle().setTitle(\"해당강의\");\r",
+                    "    this.getKeyInputButton().hide();\r",
+                    "    this.getBackButton().show();\r",
+                    "\r",
+                    "}\r",
+                    "else if(this.getMain().getActiveItem().getId()==\"QnAWriteView\")\r",
+                    "{this.getMain().setActiveItem(6);\r",
+                    "    this.getMainTitle().setTitle(\"댓글목록\");\r",
+                    "    this.getKeyInputButton().hide();\r",
+                    "    this.getBackButton().show();\r",
+                    "\r",
+                    "}\r",
+                    "else if(this.getMain().getActiveItem().getId()==\"SigninView\")\r",
+                    "{this.getMain().setActiveItem(0);\r",
+                    "    this.getMainTitle().setTitle(\"로그인\");\r",
+                    "    this.getKeyInputButton().hide();\r",
+                    "    this.getBackButton().hide();\r",
+                    "\r",
+                    "}\r",
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "backButton",
+                "designer|userClassName": "backBtnAction"
+>>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "customConfigs": [],
             "expanded": true
