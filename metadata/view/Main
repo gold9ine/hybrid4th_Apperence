@@ -1,0 +1,1029 @@
+{
+    "id": "ExtBox1-ext-gen2300",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "id": "Main",
+        "layout": "card",
+        "designer|userClassName": "Main"
+    },
+    "customConfigs": [],
+    "designerId": "8fb20345-257d-4817-a8ed-eca4918fadea",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen2398",
+            "type": "titlebar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "id": "MainTitle",
+                "style": null,
+                "scrollable": false,
+                "title": "로그인",
+                "designer|userClassName": "MyTitleBar",
+                "container|pack": null
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen7038",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": null,
+                        "hidden": true,
+                        "id": "KeyInputButton",
+                        "ui": "action",
+                        "text": "강의등록",
+                        "designer|userClassName": "MyButton9",
+                        "align": "right"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen9895",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "hidden": true,
+                        "id": "BackButton",
+                        "itemId": "mybutton11",
+                        "ui": "back",
+                        "text": "Back",
+                        "designer|userClassName": "MyButton11"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen6310",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "LoginView",
+                "layout": "card",
+                "designer|userClassName": "MyPanel9"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen4909",
+                    "type": "formpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": null,
+                        "width": null,
+                        "layout": "vbox",
+                        "designer|userClassName": "MyFormPanel",
+                        "container|align": "center"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen6996",
+                            "type": "fieldset",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "Login",
+                                "designer|userClassName": "MyFieldSet"
+                            },
+                            "customConfigs": [],
+                            "expanded": false,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen8482",
+                                    "type": "emailfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "bottom": null,
+                                        "html": null,
+                                        "id": "LoginEmailField",
+                                        "margin": null,
+                                        "style": null,
+                                        "label": "E-mail",
+                                        "name": "Email",
+                                        "placeHolder": "email@example.com",
+                                        "designer|userClassName": "MyEmailField"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen8682",
+                                    "type": "passwordfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "LoginPassField",
+                                        "label": "Password",
+                                        "labelWidth": "36%",
+                                        "name": "Password",
+                                        "designer|userClassName": "MyPasswordField"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen15715",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout": "hbox",
+                                "designer|userClassName": "MyPanel10",
+                                "container|align": "center",
+                                "container|pack": "center"
+                            },
+                            "customConfigs": [],
+                            "expanded": false,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen13959",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "LoginButton",
+                                        "text": "로그인",
+                                        "designer|userClassName": "MyButton"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen17125",
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": 20,
+                                        "designer|userClassName": "MySpacer"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen14382",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "SigninMoveButton",
+                                        "text": "가입하기",
+                                        "designer|userClassName": "MyButton1"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen9924",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "LectureListView",
+                "layout": "card",
+                "designer|userClassName": "MyPanel14"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen18565",
+                    "type": "list",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "LectureList",
+                        "itemTpl": "<div>List Item {string}</div>",
+                        "designer|userClassName": "MyList"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen19241",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "KeyInputView",
+                "layout": "vbox",
+                "designer|userClassName": "MyPanel11",
+                "container|align": "center"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen19626",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 94,
+                        "html": "<br>여기에 고유번호 키를 입력해주세요 ",
+                        "padding": "1.3em",
+                        "ui": "",
+                        "width": 318,
+                        "designer|userClassName": "MyLabel"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen19365",
+                    "type": "formpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 203,
+                        "width": 318,
+                        "layout": "vbox",
+                        "designer|userClassName": "MyFormPanel1"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen20447",
+                            "type": "fieldset",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "Key",
+                                "designer|userClassName": "MyFieldSet1"
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen21232",
+                                    "type": "numberfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": "키입력",
+                                        "designer|userClassName": "MyNumberField"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen22897",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "RegisterButton",
+                                "text": "강의등록",
+                                "designer|userClassName": "MyButton2"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen3345",
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": null,
+                "id": "LectureTabPanel",
+                "hideOnMaskTap": false,
+                "designer|userClassName": "LectureTabPanel",
+                "container|animation": "cube"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen3353",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "IntroduceContainer",
+                        "layout": "card",
+                        "designer|userClassName": "MyContainer2",
+                        "title": "강의소개",
+                        "iconCls": "info"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen21206",
+                            "type": "titlebar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top",
+                                "title": "강의소개",
+                                "designer|userClassName": "MyTitleBar1"
+                            },
+                            "customConfigs": [],
+                            "expanded": false,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen24268",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "TabBackButton1",
+                                        "ui": "back",
+                                        "text": "Back",
+                                        "designer|userClassName": "MyButton11"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen3058",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "IntroduceView",
+                                "layout": "vbox",
+                                "scrollable": false,
+                                "designer|userClassName": "MyPanel13",
+                                "container|align": "center"
+                            },
+                            "customConfigs": [],
+                            "expanded": false,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen4214",
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout": "hbox",
+                                        "scrollable": false,
+                                        "designer|userClassName": "MyContainer",
+                                        "container|align": "center",
+                                        "container|pack": "center"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": false,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen3216",
+                                            "type": "image",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "docked": null,
+                                                "height": 122,
+                                                "ui": "",
+                                                "width": 113,
+                                                "designer|userClassName": "MyImage"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": true
+                                        },
+                                        {
+                                            "id": "ExtBox1-ext-gen4830",
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "html": "이름: 블라라<br>연락처: 010-4569-0000",
+                                                "width": null,
+                                                "designer|userClassName": "MyLabel1"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen6211",
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 300,
+                                        "ui": "",
+                                        "width": 318,
+                                        "layout": "hbox",
+                                        "scrollable": true,
+                                        "designer|userClassName": "MyContainer1",
+                                        "container|align": "start",
+                                        "container|pack": "center"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": false,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen7293",
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "html": "강의 소개 <br>어찌고 저찌고 abcdefghijklmnopqrstuvwxyz",
+                                                "margin": "1em",
+                                                "designer|userClassName": "MyLabel2"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen3361",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "DataListContainer",
+                        "layout": "card",
+                        "designer|userClassName": "MyContainer3",
+                        "title": "자료목록",
+                        "activeItem": 1,
+                        "iconCls": "download"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen21735",
+                            "type": "titlebar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top",
+                                "title": "자료목록",
+                                "designer|userClassName": "MyTitleBar2"
+                            },
+                            "customConfigs": [],
+                            "expanded": false,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen25238",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "TabBackButton2",
+                                        "ui": "back",
+                                        "text": "Back",
+                                        "designer|userClassName": "MyButton12"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen11646",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "DataListView",
+                                "ui": "",
+                                "layout": "card",
+                                "designer|userClassName": "MyPanel15"
+                            },
+                            "customConfigs": [],
+                            "expanded": false,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen9430",
+                                    "type": "list",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "DataList",
+                                        "itemTpl": null,
+                                        "designer|userClassName": "MyList1"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen3369",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "QnAListContainer",
+                        "layout": "card",
+                        "designer|userClassName": "MyContainer4",
+                        "title": "댓글목록",
+                        "activeItem": 2,
+                        "iconCls": "compose"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen22032",
+                            "type": "titlebar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top",
+                                "title": "댓글목록",
+                                "designer|userClassName": "MyTitleBar3"
+                            },
+                            "customConfigs": [],
+                            "expanded": false,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen6517",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "QnAWriteButton",
+                                        "ui": "action",
+                                        "text": "댓글쓰기",
+                                        "designer|userClassName": "MyButton10",
+                                        "align": "right"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen25910",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "TabBackButton3",
+                                        "ui": "back",
+                                        "text": "Back",
+                                        "designer|userClassName": "MyButton13"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen38737",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "hidden": true,
+                                        "id": "QnAWriteCanselButton",
+                                        "ui": "action",
+                                        "text": "취소",
+                                        "designer|userClassName": "MyButton14",
+                                        "align": "right"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen12713",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "QnAListView",
+                                "layout": "card",
+                                "designer|userClassName": "MyPanel16"
+                            },
+                            "customConfigs": [],
+                            "expanded": false,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen9624",
+                                    "type": "list",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "QnAList",
+                                        "itemTpl": "<div>질문 목록이 나오는 화면</div>",
+                                        "designer|userClassName": "MyList2"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen10702",
+                                    "type": "formpanel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "QnAWriteView",
+                                        "layout": "vbox",
+                                        "scrollable": "false",
+                                        "designer|userClassName": "MyFormPanel2",
+                                        "container|align": "center",
+                                        "container|pack": "center"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": false,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen9842",
+                                            "type": "fieldset",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "instructions": "내용제한글자는 100자입니다",
+                                                "title": "댓글",
+                                                "designer|userClassName": "MyFieldSet2"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": false,
+                                            "cn": [
+                                                {
+                                                    "id": "ExtBox1-ext-gen9851",
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "label": "이름",
+                                                        "designer|userClassName": "MyTextField"
+                                                    },
+                                                    "customConfigs": [],
+                                                    "expanded": true
+                                                },
+                                                {
+                                                    "id": "ExtBox1-ext-gen10252",
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "height": 243,
+                                                        "width": 259,
+                                                        "label": "내용",
+                                                        "name": "",
+                                                        "designer|userClassName": "MyTextArea"
+                                                    },
+                                                    "customConfigs": [],
+                                                    "expanded": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen14923",
+                    "type": "tabbar",
+                    "reference": {
+                        "name": "tabBar",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "bottom",
+                        "id": "LectureTabBar",
+                        "designer|userClassName": "MyTabBar"
+                    },
+                    "customConfigs": [],
+                    "iconCls": "icon-tab-bar",
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen13269",
+            "type": "formpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "SigninView",
+                "layout": "vbox",
+                "scrollable": "false",
+                "designer|userClassName": "MyFormPanel3",
+                "container|align": "center"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen13393",
+                    "type": "fieldset",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "이메일 인증",
+                        "designer|userClassName": "MyFieldSet3"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen17438",
+                            "type": "emailfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "SigninEmailField",
+                                "width": 278,
+                                "label": "Email",
+                                "placeHolder": "email@example.com",
+                                "designer|userClassName": "MyEmailField1"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen14322",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "MailSendButton",
+                        "text": "인증메일발송",
+                        "designer|userClassName": "MyButton6"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen17702",
+                    "type": "spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": "1em",
+                        "designer|userClassName": "MySpacer3"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen14661",
+                    "type": "fieldset",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "instructions": "비밀번호는 여기서 사용할 비밀번호입니다.",
+                        "title": "정보입력",
+                        "designer|userClassName": "MyFieldSet4"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen16744",
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "SigninNumField",
+                                "label": "인증번호",
+                                "designer|userClassName": "MyTextField2"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen15655",
+                            "type": "passwordfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "SigninPassField",
+                                "label": "비밀번호",
+                                "designer|userClassName": "MyPasswordField1"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen18017",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "SigninButton",
+                        "text": "가입하기",
+                        "designer|userClassName": "MyButton7"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}
