@@ -19,7 +19,7 @@ Ext.define('MyApp.view.Main', {
     config: {
         id: 'Main',
         layout: {
-            type: 'card'
+            type: 'card',
         },
         items: [
             {
@@ -40,8 +40,6 @@ Ext.define('MyApp.view.Main', {
                     {
                         xtype: 'button',
                         hidden: true,
-<<<<<<< HEAD
-=======
                         id: 'QnAWriteButton',
                         ui: 'action',
                         text: '댓글쓰기',
@@ -50,7 +48,6 @@ Ext.define('MyApp.view.Main', {
                     {
                         xtype: 'button',
                         hidden: true,
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                         id: 'BackButton',
                         itemId: 'mybutton11',
                         ui: 'back',
@@ -78,26 +75,20 @@ Ext.define('MyApp.view.Main', {
                                 items: [
                                     {
                                         xtype: 'emailfield',
-<<<<<<< HEAD
                                         id: 'LoginEmailField',
                                         label: 'E-mail',
                                         name: 'Email',
-=======
                                         label: 'E-mail',
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                         placeHolder: 'email@example.com'
                                     },
                                     {
                                         xtype: 'passwordfield',
-<<<<<<< HEAD
                                         id: 'LoginPassField',
                                         label: 'Password',
                                         labelWidth: '36%',
-                                        name: 'Password'
-=======
+                                        name: 'Password',
                                         label: 'Password',
                                         labelWidth: '36%'
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                     }
                                 ]
                             },
@@ -120,11 +111,8 @@ Ext.define('MyApp.view.Main', {
                                     },
                                     {
                                         xtype: 'button',
-<<<<<<< HEAD
                                         id: 'SigninMoveButton',
-=======
                                         id: 'SigninButton',
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                         text: '가입하기'
                                     }
                                 ]
@@ -152,13 +140,11 @@ Ext.define('MyApp.view.Main', {
             {
                 xtype: 'panel',
                 id: 'KeyInputView',
-<<<<<<< HEAD
                 layout: {
                     align: 'center',
                     type: 'vbox'
                 },
-=======
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
+
                 items: [
                     {
                         xtype: 'label',
@@ -196,7 +182,6 @@ Ext.define('MyApp.view.Main', {
                 ]
             },
             {
-<<<<<<< HEAD
                 xtype: 'tabpanel',
                 id: 'LectureTabPanel',
                 hideOnMaskTap: false,
@@ -276,8 +261,7 @@ Ext.define('MyApp.view.Main', {
                                             }
                                         ]
                                     }
-                                ]
-=======
+                                ],
                 xtype: 'panel',
                 id: 'MenuView',
                 layout: {
@@ -333,13 +317,11 @@ Ext.define('MyApp.view.Main', {
                             {
                                 xtype: 'label',
                                 html: '이름: 블라라<br>연락처: 010-4569-0000'
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                             }
                         ]
                     },
                     {
                         xtype: 'container',
-<<<<<<< HEAD
                         id: 'DataListContainer',
                         layout: {
                             type: 'card'
@@ -467,8 +449,7 @@ Ext.define('MyApp.view.Main', {
                 tabBar: {
                     docked: 'bottom',
                     id: 'LectureTabBar'
-                }
-=======
+                },
                         height: 300,
                         ui: '',
                         width: 318,
@@ -548,7 +529,6 @@ Ext.define('MyApp.view.Main', {
                         ]
                     }
                 ]
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             {
                 xtype: 'formpanel',
@@ -565,10 +545,7 @@ Ext.define('MyApp.view.Main', {
                         items: [
                             {
                                 xtype: 'emailfield',
-<<<<<<< HEAD
                                 id: 'SigninEmailField',
-=======
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                 width: 278,
                                 label: 'Email',
                                 placeHolder: 'email@example.com'
@@ -591,18 +568,12 @@ Ext.define('MyApp.view.Main', {
                         items: [
                             {
                                 xtype: 'textfield',
-<<<<<<< HEAD
                                 id: 'SigninNumField',
-=======
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                 label: '인증번호'
                             },
                             {
                                 xtype: 'passwordfield',
-<<<<<<< HEAD
                                 id: 'SigninPassField',
-=======
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
                                 label: '비밀번호'
                             }
                         ]
@@ -616,5 +587,6 @@ Ext.define('MyApp.view.Main', {
             }
         ]
     }
-
+]
+    }
 });

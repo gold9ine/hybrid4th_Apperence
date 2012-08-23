@@ -17,18 +17,15 @@ Ext.define('MyApp.controller.MyController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {
-<<<<<<< HEAD
+
             signinMoveButton: '#SigninMoveButton',
-=======
-            signinButton: '#SigninButton',
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             signinView: '#SigniniView',
             main: '#Main',
             loginButton: '#LoginButton',
             mainTitle: '#MainTitle',
             keyInputButton: '#KeyInputButton',
             registerButton: '#RegisterButton',
-<<<<<<< HEAD
+
             qnAWriteButton: '#QnAWriteButton',
             backButton: '#BackButton',
             loginEmailField: '#LoginEmailField',
@@ -43,18 +40,6 @@ Ext.define('MyApp.controller.MyController', {
         control: {
             "signinMoveButton": {
                 tap: 'signinMoveBtnAction'
-=======
-            introduceButton: '#IntroduceButton',
-            dataListButton: '#DataListButton',
-            qnAListButton: '#QnAListButton',
-            qnAWriteButton: '#QnAWriteButton',
-            backButton: '#BackButton'
-        },
-
-        control: {
-            "signinButton": {
-                tap: 'signinBtnAction'
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             },
             "loginButton": {
                 tap: 'loginBtnAction'
@@ -65,24 +50,13 @@ Ext.define('MyApp.controller.MyController', {
             "registerButton": {
                 tap: 'registerBtnAction'
             },
-<<<<<<< HEAD
-=======
-            "introduceButton": {
-                tap: 'introduceBtnAction'
-            },
-            "dataListButton": {
-                tap: 'dataListBtnAction'
-            },
-            "qnAListButton": {
-                tap: 'qnAListBntAction'
-            },
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
+
             "qnAWriteButton": {
                 tap: 'qnAWriteBtnAction'
             },
             "backButton": {
                 tap: 'backBtnAction'
-<<<<<<< HEAD
+
             },
             "mailSendButton": {
                 tap: 'mailSendBtnAction'
@@ -92,27 +66,19 @@ Ext.define('MyApp.controller.MyController', {
             },
             "button": {
                 tap: 'tabPanelBackBtnAction'
-=======
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             }
         }
     },
 
-<<<<<<< HEAD
+
     signinMoveBtnAction: function(button, e, options) {
-=======
-    signinBtnAction: function(button, e, options) {
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
         //로그인화면에서 가입하기 버튼을 눌렀을때 발생하는 함수
 
         //card속성을 가진 panel에서 맨위에 올릴 panel을 결정. Main panel안에 
         //있는 panel중 9번째 패널을 맨위에 올림.
-<<<<<<< HEAD
+
         this.getMain().setActiveItem(4);
 
-=======
-        this.getMain().setActiveItem(9);
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
         this.getMainTitle().setTitle("가입하기");
         this.getBackButton().show();
     },
@@ -120,7 +86,7 @@ Ext.define('MyApp.controller.MyController', {
     loginBtnAction: function(button, e, options) {
         //로그인화면에서 로그인 버튼을 눌렀을때 발생하는 함수
 
-<<<<<<< HEAD
+
         //console.log("로그인버튼을 누름");
         //console.log(Ext.getCmp("LoginEmailField").getValue());
         //console.log(request.getParameter("Email"));
@@ -138,21 +104,13 @@ Ext.define('MyApp.controller.MyController', {
             "존재하지 않는 이메일이거나 비밀번호가 맞지 않습니다."
             );
         }
-=======
-        this.getMain().setActiveItem(1);
-        this.getMainTitle().setTitle("강의목록");
-        this.getKeyInputButton().show();
-        this.getBackButton().show();
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
     },
 
     keyInputBtnAction: function(button, e, options) {
         //강의목록화면에서 강의등록 버튼을 눌렀을때 발생하는 함수
         this.getMain().setActiveItem(2);
-<<<<<<< HEAD
 
-=======
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
+
         this.getMainTitle().setTitle("강의등록");
         this.getKeyInputButton().hide();
         this.getBackButton().show();
@@ -161,41 +119,15 @@ Ext.define('MyApp.controller.MyController', {
     registerBtnAction: function(button, e, options) {
         //강의등록화면에서  키입력후 강의등록버튼을 눌렀을때 발생하는 함수
         this.getMain().setActiveItem(3);
-<<<<<<< HEAD
+
         this.getMainTitle().hide();
         //this.getMainTitle().setTitle("해당강의");
         //this.getCmp("TabBackButton1").show();
-=======
-        this.getMainTitle().setTitle("해당강의");
-        this.getBackButton().show();
-    },
-
-    introduceBtnAction: function(button, e, options) {
-        //강의메뉴화면에서 강의소개 버튼을 눌렀을때 발생하는 함수
-        this.getMain().setActiveItem(4);
-        this.getMainTitle().setTitle("강의소개");
-        this.getBackButton().show();
-    },
-
-    dataListBtnAction: function(button, e, options) {
-        //강의메뉴화면에서 자료목록 버튼을 눌렀을때 발생하는 함수
-        this.getMain().setActiveItem(5);
-        this.getMainTitle().setTitle("자료목록");
-        this.getBackButton().show();
-    },
-
-    qnAListBntAction: function(button, e, options) {
-        //강의메뉴화면에서 댓글목록 버튼을 눌렀을때 발생하는 함수
-        this.getMain().setActiveItem(6);
-        this.getMainTitle().setTitle("댓글목록");
-        this.getQnAWriteButton().show();
-        this.getBackButton().show();
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
     },
 
     qnAWriteBtnAction: function(button, e, options) {
         //댓글목록화면에서 댓글쓰기 버튼을 눌렀을때 발생하는 함수
-<<<<<<< HEAD
+
         this.getMain().getActiveItem(3).getActiveItem(2).getActiveItem(1).setActiveItem(1);
         this.getMainTitle().hide();
         //this.getMainTitle().setTitle("댓글쓰기");
@@ -203,21 +135,13 @@ Ext.define('MyApp.controller.MyController', {
         this.getTabBackButton3().hide();
         this.getQnAWriteCanselButton().show();
         //this.getCmp("TabBackButton3").show();
-=======
-        this.getMain().setActiveItem(7);
-        this.getMainTitle().setTitle("댓글쓰기");
-        this.getQnAWriteButton().hide();
-        this.getBackButton().show();
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
     },
 
     backBtnAction: function(button, e, options) {
         if(this.getMain().getActiveItem().getId()=="LectureListView"){
             this.getMain().setActiveItem(0);
-<<<<<<< HEAD
+
             this.getMainTitle().show();
-=======
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             this.getMainTitle().setTitle("로그인");
             this.getKeyInputButton().hide();
             this.getBackButton().hide();
@@ -225,28 +149,22 @@ Ext.define('MyApp.controller.MyController', {
 
         else if(this.getMain().getActiveItem().getId()=="KeyInputView")
         {this.getMain().setActiveItem(1);
-<<<<<<< HEAD
+
             this.getMainTitle().show();
-=======
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             this.getMainTitle().setTitle("강의목록");
             this.getKeyInputButton().show();
             this.getBackButton().show();
 
         }
-<<<<<<< HEAD
+
         else if(this.getMain().getActiveItem().getId()=="LectureTabPanel")
         { this.getMain().setActiveItem(1);
             this.getMainTitle().show();
-=======
-        else if(this.getMain().getActiveItem().getId()=="MenuView")
-        { this.getMain().setActiveItem(1);
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
             this.getMainTitle().setTitle("강의목록");
             this.getKeyInputButton().show();
             this.getBackButton().show();
         }
-<<<<<<< HEAD
+
         else if(this.getMain().getActiveItem().getId()=="SigninView")
         {this.getMain().setActiveItem(0);
             this.getMainTitle().show();
@@ -330,43 +248,6 @@ Ext.define('MyApp.controller.MyController', {
             this.getQnAWriteCanselButton().hide();
             this.getTabBackButton3().show();
         }
-=======
-        else if(this.getMain().getActiveItem().getId()=="IntroduceView")
-        {this.getMain().setActiveItem(3);
-            this.getMainTitle().setTitle("해당강의");
-            this.getKeyInputButton().hide();
-            this.getBackButton().show();
-        }
-        else if(this.getMain().getActiveItem().getId()=="DataListView")
-        {this.getMain().setActiveItem(3);
-            this.getMainTitle().setTitle("해당강의");
-            this.getKeyInputButton().hide();
-            this.getBackButton().show();
-
-        }
-        else if(this.getMain().getActiveItem().getId()=="QnAListView")
-        {this.getMain().setActiveItem(3);
-            this.getMainTitle().setTitle("해당강의");
-            this.getKeyInputButton().hide();
-            this.getBackButton().show();
-
-        }
-        else if(this.getMain().getActiveItem().getId()=="QnAWriteView")
-        {this.getMain().setActiveItem(6);
-            this.getMainTitle().setTitle("댓글목록");
-            this.getKeyInputButton().hide();
-            this.getBackButton().show();
-
-        }
-        else if(this.getMain().getActiveItem().getId()=="SigninView")
-        {this.getMain().setActiveItem(0);
-            this.getMainTitle().setTitle("로그인");
-            this.getKeyInputButton().hide();
-            this.getBackButton().hide();
-
-        }
-
->>>>>>> b77cb8516038f0f7d87cb1a8f0b864a010a740c1
     }
 
 });
