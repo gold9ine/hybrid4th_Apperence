@@ -19,7 +19,7 @@ Ext.define('MyApp.view.Main', {
     config: {
         id: 'Main',
         layout: {
-            type: 'card',
+            type: 'card'
         },
         items: [
             {
@@ -35,14 +35,6 @@ Ext.define('MyApp.view.Main', {
                         id: 'KeyInputButton',
                         ui: 'action',
                         text: '강의등록',
-                        align: 'right'
-                    },
-                    {
-                        xtype: 'button',
-                        hidden: true,
-                        id: 'QnAWriteButton',
-                        ui: 'action',
-                        text: '댓글쓰기',
                         align: 'right'
                     },
                     {
@@ -78,7 +70,6 @@ Ext.define('MyApp.view.Main', {
                                         id: 'LoginEmailField',
                                         label: 'E-mail',
                                         name: 'Email',
-                                        label: 'E-mail',
                                         placeHolder: 'email@example.com'
                                     },
                                     {
@@ -86,9 +77,7 @@ Ext.define('MyApp.view.Main', {
                                         id: 'LoginPassField',
                                         label: 'Password',
                                         labelWidth: '36%',
-                                        name: 'Password',
-                                        label: 'Password',
-                                        labelWidth: '36%'
+                                        name: 'Password'
                                     }
                                 ]
                             },
@@ -112,7 +101,6 @@ Ext.define('MyApp.view.Main', {
                                     {
                                         xtype: 'button',
                                         id: 'SigninMoveButton',
-                                        id: 'SigninButton',
                                         text: '가입하기'
                                     }
                                 ]
@@ -144,7 +132,6 @@ Ext.define('MyApp.view.Main', {
                     align: 'center',
                     type: 'vbox'
                 },
-
                 items: [
                     {
                         xtype: 'label',
@@ -261,62 +248,7 @@ Ext.define('MyApp.view.Main', {
                                             }
                                         ]
                                     }
-                                ],
-                xtype: 'panel',
-                id: 'MenuView',
-                layout: {
-                    align: 'center',
-                    pack: 'center',
-                    type: 'vbox'
-                },
-                items: [
-                    {
-                        xtype: 'button',
-                        id: 'IntroduceButton',
-                        text: '강의소개'
-                    },
-                    {
-                        xtype: 'spacer',
-                        height: '2em'
-                    },
-                    {
-                        xtype: 'button',
-                        id: 'DataListButton',
-                        text: '강의자료'
-                    },
-                    {
-                        xtype: 'spacer',
-                        height: '2em'
-                    },
-                    {
-                        xtype: 'button',
-                        id: 'QnAListButton',
-                        text: '댓글목록'
-                    }
-                ]
-            },
-            {
-                xtype: 'panel',
-                id: 'IntroduceView',
-                items: [
-                    {
-                        xtype: 'container',
-                        layout: {
-                            align: 'center',
-                            pack: 'center',
-                            type: 'hbox'
-                        },
-                        scrollable: false,
-                        items: [
-                            {
-                                xtype: 'image',
-                                height: 122,
-                                ui: '',
-                                width: 113
-                            },
-                            {
-                                xtype: 'label',
-                                html: '이름: 블라라<br>연락처: 010-4569-0000'
+                                ]
                             }
                         ]
                     },
@@ -449,86 +381,7 @@ Ext.define('MyApp.view.Main', {
                 tabBar: {
                     docked: 'bottom',
                     id: 'LectureTabBar'
-                },
-                        height: 300,
-                        ui: '',
-                        width: 318,
-                        layout: {
-                            align: 'start',
-                            type: 'hbox'
-                        },
-                        scrollable: true,
-                        items: [
-                            {
-                                xtype: 'label',
-                                html: '강의 소개 <br>어찌고 저찌고 abcdefghijklmnopqrstuvwxyz',
-                                margin: '1em'
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                xtype: 'panel',
-                id: 'DataListView',
-                layout: {
-                    type: 'card'
-                },
-                items: [
-                    {
-                        xtype: 'list',
-                        id: 'DataList',
-                        itemTpl: [
-                            '<div>List Item {string}</div>'
-                        ]
-                    }
-                ]
-            },
-            {
-                xtype: 'panel',
-                id: 'QnAListView',
-                layout: {
-                    type: 'card'
-                },
-                items: [
-                    {
-                        xtype: 'list',
-                        id: 'QnAList',
-                        itemTpl: [
-                            '<div>List Item {string}</div>'
-                        ]
-                    }
-                ]
-            },
-            {
-                xtype: 'formpanel',
-                id: 'QnAWriteView',
-                layout: {
-                    align: 'center',
-                    pack: 'center',
-                    type: 'vbox'
-                },
-                scrollable: false,
-                items: [
-                    {
-                        xtype: 'fieldset',
-                        instructions: '내용제한글자는 100자입니다',
-                        title: '댓글',
-                        items: [
-                            {
-                                xtype: 'textfield',
-                                label: '이름'
-                            },
-                            {
-                                xtype: 'textareafield',
-                                height: 260,
-                                width: 261,
-                                label: '내용',
-                                name: ''
-                            }
-                        ]
-                    }
-                ]
+                }
             },
             {
                 xtype: 'formpanel',
@@ -587,6 +440,5 @@ Ext.define('MyApp.view.Main', {
             }
         ]
     }
-]
-    }
+
 });

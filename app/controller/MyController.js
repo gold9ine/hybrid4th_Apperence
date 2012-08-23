@@ -17,7 +17,6 @@ Ext.define('MyApp.controller.MyController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {
-
             signinMoveButton: '#SigninMoveButton',
             signinView: '#SigniniView',
             main: '#Main',
@@ -25,7 +24,6 @@ Ext.define('MyApp.controller.MyController', {
             mainTitle: '#MainTitle',
             keyInputButton: '#KeyInputButton',
             registerButton: '#RegisterButton',
-
             qnAWriteButton: '#QnAWriteButton',
             backButton: '#BackButton',
             loginEmailField: '#LoginEmailField',
@@ -50,13 +48,11 @@ Ext.define('MyApp.controller.MyController', {
             "registerButton": {
                 tap: 'registerBtnAction'
             },
-
             "qnAWriteButton": {
                 tap: 'qnAWriteBtnAction'
             },
             "backButton": {
                 tap: 'backBtnAction'
-
             },
             "mailSendButton": {
                 tap: 'mailSendBtnAction'
@@ -70,13 +66,11 @@ Ext.define('MyApp.controller.MyController', {
         }
     },
 
-
     signinMoveBtnAction: function(button, e, options) {
         //로그인화면에서 가입하기 버튼을 눌렀을때 발생하는 함수
 
         //card속성을 가진 panel에서 맨위에 올릴 panel을 결정. Main panel안에 
         //있는 panel중 9번째 패널을 맨위에 올림.
-
         this.getMain().setActiveItem(4);
 
         this.getMainTitle().setTitle("가입하기");
@@ -85,7 +79,6 @@ Ext.define('MyApp.controller.MyController', {
 
     loginBtnAction: function(button, e, options) {
         //로그인화면에서 로그인 버튼을 눌렀을때 발생하는 함수
-
 
         //console.log("로그인버튼을 누름");
         //console.log(Ext.getCmp("LoginEmailField").getValue());
@@ -110,7 +103,6 @@ Ext.define('MyApp.controller.MyController', {
         //강의목록화면에서 강의등록 버튼을 눌렀을때 발생하는 함수
         this.getMain().setActiveItem(2);
 
-
         this.getMainTitle().setTitle("강의등록");
         this.getKeyInputButton().hide();
         this.getBackButton().show();
@@ -119,7 +111,6 @@ Ext.define('MyApp.controller.MyController', {
     registerBtnAction: function(button, e, options) {
         //강의등록화면에서  키입력후 강의등록버튼을 눌렀을때 발생하는 함수
         this.getMain().setActiveItem(3);
-
         this.getMainTitle().hide();
         //this.getMainTitle().setTitle("해당강의");
         //this.getCmp("TabBackButton1").show();
@@ -127,7 +118,6 @@ Ext.define('MyApp.controller.MyController', {
 
     qnAWriteBtnAction: function(button, e, options) {
         //댓글목록화면에서 댓글쓰기 버튼을 눌렀을때 발생하는 함수
-
         this.getMain().getActiveItem(3).getActiveItem(2).getActiveItem(1).setActiveItem(1);
         this.getMainTitle().hide();
         //this.getMainTitle().setTitle("댓글쓰기");
@@ -140,7 +130,6 @@ Ext.define('MyApp.controller.MyController', {
     backBtnAction: function(button, e, options) {
         if(this.getMain().getActiveItem().getId()=="LectureListView"){
             this.getMain().setActiveItem(0);
-
             this.getMainTitle().show();
             this.getMainTitle().setTitle("로그인");
             this.getKeyInputButton().hide();
@@ -149,14 +138,12 @@ Ext.define('MyApp.controller.MyController', {
 
         else if(this.getMain().getActiveItem().getId()=="KeyInputView")
         {this.getMain().setActiveItem(1);
-
             this.getMainTitle().show();
             this.getMainTitle().setTitle("강의목록");
             this.getKeyInputButton().show();
             this.getBackButton().show();
 
         }
-
         else if(this.getMain().getActiveItem().getId()=="LectureTabPanel")
         { this.getMain().setActiveItem(1);
             this.getMainTitle().show();
@@ -164,7 +151,6 @@ Ext.define('MyApp.controller.MyController', {
             this.getKeyInputButton().show();
             this.getBackButton().show();
         }
-
         else if(this.getMain().getActiveItem().getId()=="SigninView")
         {this.getMain().setActiveItem(0);
             this.getMainTitle().show();
